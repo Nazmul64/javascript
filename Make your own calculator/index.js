@@ -1,0 +1,15 @@
+var number1 = prompt("Enter Your First Number:");
+var number2 = prompt("Enter Your Secound Number:");
+var number1 =parseInt(number1,10);
+var number2=parseInt(number2,10);
+var sum ,sub,mul,div,rem;
+sum =number1 + number1;
+document.write('Addition = '+sum+"<br>");
+ sub =number1-number2;
+ document.write("Sub = "+sub+"<br>");
+ mul =number1 * number2;
+ document.write("mul "+mul+"<br>");
+ div =number1 / number2;
+ document.write("div "+div+"<br>");
+ rem =number1 % number2;
+ document.write("rem "+rem+"<br>");
